@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+/*Header and home section*/
+.home {
+    box-sizing: border-box;
+}
+.home .header {
+    box-sizing: border-box;
+    width: -5in;
+    position: relative;
+    right: 90;
+    bottom: -70;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.home .header nav {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    font-family: 'Adamina', serif;
+}
+
+.home .header nav div {
+    padding-right: 0.7in;
+}
+.home .header nav div a {
+    text-decoration: none;
+    color: #fff;
+}
+.home .header nav div a:hover {
+    color: #faff00;
+    font-size: larger;
+    font-weight: 700;
+}
+.f-btn {
+    /*the first log in button*/
+    color: black;
+    background: #faff00;
+    padding: 0;
+}
+.s-btn {
+    /* the second log in button*/
+    color: #faff00;
+    background: black;
+    padding: 0;
+}
+.home img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 1;
+}
+.home .content {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    position: relative;
+    left: 100;
+    top: -450;
+}
+
+.home .content .h1{
+    color: #faff00;
+    font-family: 'Adamina', serif;
+    font-size: xx-large;
+    font-weight: 100;
+}
+.home .content .p {
+    color: #fff;
+    font-size: xx-large;
+    font-family: 'Poppins', sans-serif;
+}
+/*head and home section ends*/
