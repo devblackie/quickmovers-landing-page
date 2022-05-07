@@ -1,6 +1,6 @@
 * {
-    margin: 0;
-    border: 0;
+    margin: 3px;
+    border: 1px;
     padding: 0;
 }
 /*Header and home section*/
@@ -76,3 +76,60 @@
     font-family: 'Poppins', sans-serif;
 }
 /*head and home section ends*/
+
+/*Marketing section*/
+.marketing {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    border: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+table {
+    width: 100%;
+}
+.marketing .m-img {
+    overflow: hidden;
+}
+.marketing .m-img img {
+    width: 100%;
+    object-fit: cover;
+}
+/*
+.marketing .m-content {
+    text-align: left;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+}*/
+.marketing .m-content a {
+    text-decoration: none;
+}
+.marketing .m-content hr {
+    background: rgba(243,204,133,0.7);
+    height: 5px;
+    border: 0;
+    width: 10%;
+}
+.marketing .m-content .m-btn {
+    color: #faff00;
+    background: black;
+    border-top-right-radius: .7rem;
+    padding: 5px;
+    border: 2px solid black;
+}
+.marketing .m-content .m-btn:hover {
+    color: black;
+    background: #faff00;
+    border: 2px solid #faff00;
+    font-size: large;
+    font-weight: 600;
+}
+
+
+
+
+
+
+/*end of marketing sectionte*/
