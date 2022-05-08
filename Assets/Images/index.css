@@ -139,6 +139,23 @@ table {
 /*partners section */
 .partners {
     background: rgb(245,245,245);
+    width: 100%;
+}
+.p-images{
+    display: flex;
+    direction: row; 
+    justify-content:space-between;
+    align-items: center;
+    padding: 50px;
+}
+.moversicon{
+    display: flex;
+    direction: row; 
+    justify-content: space-between;
+}
+.image img{
+    width: 80%;
+    height:80%;
 }
 
 
