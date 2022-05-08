@@ -24,7 +24,7 @@ No noticeable bugs identified.
 Incase you run into a problem, kindly contact  me on newtieblackie@gmail.com and also feel free to contribute to my code.
 
 ## Live Site
-Go to <a src="">Live</a>
+Go to <a src="https://devblackie.github.io/quickmovers-landing-page/">Live</a>
 
 ## License
 This project is under the MIT license:
