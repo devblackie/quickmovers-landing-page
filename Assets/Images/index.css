@@ -107,7 +107,7 @@ table {
     text-decoration: none;
 }
 .marketing .m-content hr {
-    background: rgba(243,204,133,0.7);
+    background: webkit-gradient(to right, blue,red);
     height: 5px;
     border: 0;
     width: 10%;
