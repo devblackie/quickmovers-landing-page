@@ -37,17 +37,19 @@
     font-size: larger;
     font-weight: 700;
 }
-.f-btn {
+.f-btn button {
     /*the first log in button*/
     color: black;
     background: #faff00;
-    padding: 0;
+    padding: 3px;
+    border: 1px solid #faff00;
 }
-.s-btn {
+.s-btn button{
     /* the second log in button*/
     color: #faff00;
     background: black;
-    padding: 0;
+    padding: 3px;
+    border: 1px solid #faff00;
 }
 .home img {
     width: 100%;
@@ -189,6 +191,11 @@ hr {
 .f-icons a{
     color: #fff;
 }
+.f-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 .f-links {
     display: flex;
     justify-content: space-between;
@@ -255,7 +262,10 @@ hr {
     box-sizing: border-box;
     
 }
-.homme .homme-img {
+td {
     width: 50%;
+}
+.homme .homme-img img{
+    width: 80%;
     height: 80%;
 }
