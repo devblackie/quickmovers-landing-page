@@ -163,12 +163,12 @@ table {
 /* Footer section */
 .footer {
     background: black;
+    margin: 5px;
     border: 5px;
     color: #fff;
     font-family: 'Actor', sans-serif;
 }
 .ft {
-    box-sizing: border-box;
     padding: 5px;
     border: 5px;
     margin: 5px;
@@ -176,9 +176,86 @@ table {
 #color {
     color: rgb(236,158,77);
 }
+hr {
+    background: #fff;
+    height: 1px;
+    border: 0;
+    
+}
+.spacer {
+    display: flex;
+    justify-content: space-between;
+}
+.f-icons a{
+    color: #fff;
+}
+.f-links {
+    display: flex;
+    justify-content: space-between;
+}
+.f-links-1 {
+    display: flex;
+    flex-direction: column;
+}
+.f-links-1 a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 100;
+}
+.f-links-1 h3{
+    font-weight: 300;
+}
 
 
 
 
 
 /*Footer section ends*/
+/* page 2 */
+/* header */
+.headnav {
+    background: black;
+}
+.headnav nav {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    font-family: 'Adamina', serif;
+}
+.headnav nav a {
+    text-decoration: none;
+    color: #fff;
+    padding-right: 0.7in;
+}
+.headnav nav a:hover {
+    color: #faff00;
+    font-size: larger;
+    font-weight: 700;
+}
+.headnav button {
+    color: black;
+    background:  #FFAC12;
+    padding: 5px;
+    border: 5px solid #FFAC12;
+    border-top-right-radius: .5rem;
+}
+.headnav button i {
+    color: #fff;
+}
+.below {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+/* heaeder ends */
+/* homme section */
+.homme {
+    box-sizing: border-box;
+    
+}
+.homme .homme-img {
+    width: 50%;
+    height: 80%;
+}
