@@ -2,6 +2,7 @@
     margin: 3px;
     border: 1px;
     padding: 0;
+    box-sizing: border-box;
 }
 /*Header and home section*/
 .home {
@@ -148,12 +149,30 @@ table {
     direction: row; 
     justify-content:space-between;
     align-items: center;
-    padding: 50px;
+  
 }
+/* test */
+/* .test {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1px;
+    background-color: #2196F3;
+    padding: 2px;
+}
+a {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+ */
+
+/* test */
 .moversicon{
+    box-sizing: border-box;
+    width: 100px;
     display: flex;
     direction: row; 
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .image img{
     width: 80%;
@@ -164,23 +183,40 @@ table {
 /* partners section end*/
 /* Footer section */
 .footer {
-    background: black;
-    margin: 5px;
+    color: white;
+    background-image: linear-gradient(to right top, #000000, #030202, #20100b, #351e0b, #644203);
+    padding: 70px;
     border: 5px;
     color: #fff;
-    font-family: 'Actor', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 .ft {
-    padding: 5px;
+    padding: 40px;
     border: 5px;
     margin: 5px;
+    font-family: 'Actor', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.ft .fbtn button{
+    text-align: center;
+    font-weight: 700;
+    padding: 7px;
+    border: 3px solid #faff00;
+    border-top-right-radius: .5rem;
+    background: #faff00;
+    color: #000000;
+}
+.ft .fbtn button i{
+    color: #fff;
 }
 #color {
     color: rgb(236,158,77);
 }
 hr {
     background: #fff;
-    height: 1px;
+    height: 0.3px;
     border: 0;
     
 }
@@ -190,6 +226,10 @@ hr {
 }
 .f-icons a{
     color: #fff;
+    gap
+}
+.f-icons {
+    padding: 70px;
 }
 .f-head {
     display: flex;
@@ -199,10 +239,12 @@ hr {
 .f-links {
     display: flex;
     justify-content: space-between;
+    padding: 20px;
 }
 .f-links-1 {
     display: flex;
     flex-direction: column;
+    padding: 20px;
 }
 .f-links-1 a{
     color: #fff;
@@ -266,9 +308,10 @@ td {
     width: 50%;
 }
 .homme .homme-img img{
-    width: 80%;
-    height: 80%;
+    width: 100%;
+    height: 100%;
 }
+.mobile 
 
 
 /* homme section ends */
@@ -287,7 +330,28 @@ td {
     border-bottom-right-radius: .5rem;
     border: 1px;
 }
+/* faetures section */
+/* similar listing */
+.house {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.house .malto-house img {
+    width: 70%;
+    height: 70%;
+}
 
+/* similar listing */
+/* details */
+.details {
+    float: left;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* details end */
 
 
 
