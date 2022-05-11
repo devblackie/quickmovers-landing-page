@@ -4,55 +4,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-@media screen and (min-width: 720px){
-    .home{
-    display :flex;
-    flex-direction: column;
-    }
-    .footer {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        
-    }
-    .header {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-    }
-    .headnav {
-        display: flex;
-        flex-direction: column;
-
-    }
-    .background {
-        color: #20100b;
-    }
-    .homme {
-        display: flex;
-        flex-direction: column;
-    }
-    .rowing {
-        display: flex;
-        flex-direction: column;
-    }
-    .features {
-        display: flex;
-        flex-direction: column;
-    }
-    .content h1 {
-        font-size: 2rem;
-    }
-    .marketing {
-        display: flex;
-        flex-direction: column;
-    }
-    .partners {
-        display: flex;
-        flex-direction: column;
-    }
-
-} 
+/*  */
 
 
 /*Header and home section*/
