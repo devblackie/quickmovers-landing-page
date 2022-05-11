@@ -13,10 +13,10 @@
 }
 .home .header {
     box-sizing: border-box;
-    width: -5in;
+    width: -3in;
     position: relative;
     right: 90;
-    bottom: -70;
+    bottom: -90;
     display: flex;
     justify-content: flex-end;
 
@@ -24,6 +24,7 @@
 
 .home .header nav {
     position: relative;
+    align-items: center;
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;
@@ -31,30 +32,57 @@
 }
 
 .home .header nav div {
-    padding-right: 0.7in;
+    padding-right: 0.3in;
 }
 .home .header nav div a {
     text-decoration: none;
     color: #fff;
 }
 .home .header nav div a:hover {
-    color: #faff00;
-    font-size: larger;
+    color: #a16530;
+    font-size: large;
     font-weight: 700;
+    border-radius: .5rem;
 }
 .f-btn button {
     /*the first log in button*/
     color: black;
+    text-align: justify;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
     background: #faff00;
+    padding: 3px;
+    border: 1px solid #faff00;
+    border-radius: .7rem;
+}
+.f-btn button:hover {
+    color: #faff00;
+    border-radius: .7rem;
+    text-align: justify;
+    font-weight: 500;
+    background: black;
     padding: 3px;
     border: 1px solid #faff00;
 }
 .s-btn button{
     /* the second log in button*/
     color: #faff00;
+    border-radius: .7rem;
+    text-align: justify;
+    font-weight: 500;
     background: black;
     padding: 3px;
     border: 1px solid #faff00;
+}
+.s-btn button:hover {
+    color: black;
+    text-align: justify;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    background: #faff00;
+    padding: 3px;
+    border: 1px solid #faff00;
+    border-radius: .7rem;
 }
 .home img {
     width: 100%;
@@ -65,7 +93,7 @@
 .home .content {
     display: flex;
     flex-flow: column;
-    justify-content: flex-start;
+    justify-content: flex-end;
     position: relative;
     left: 100;
     top: -450;
@@ -73,13 +101,13 @@
 
 .home .content .h1{
     color: #faff00;
-    font-family: 'Adamina', serif;
-    font-size: xx-large;
+    font-family: 'Poppins', sans-serif;
+    font-size: x-large;
     font-weight: 100;
 }
 .home .content .p {
     color: #fff;
-    font-size: xx-large;
+    font-size: x-large;
     font-family: 'Poppins', sans-serif;
 }
 /*head and home section ends*/
