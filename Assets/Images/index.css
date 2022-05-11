@@ -5,8 +5,8 @@
     box-sizing: border-box;
 }
 @media  screen and(max-width:720px){
-    display: flex;
-    flex-direction: column;
+    display{ flex:
+    flex-direction; column;
     .footer {
         display: flex;
         flex-direction: column;
@@ -134,9 +134,10 @@
     display: flex;
     flex-direction: row;
     overflow: hidden;
-    border: 10px;
-    padding: 10px;
-    margin: 10px;
+    border: 0;
+    padding: 0;
+    margin-top: 2px;
+    
 }
 table {
     width: 100%;
@@ -166,7 +167,7 @@ table {
 }
 
 .marketing .m-content hr {
-    background: rgba(164,115,53,0.9);
+    background: linear-gradient(to right top, #000001, #351b0b, #20000d, #351b0b, #634203);
     height: 5px;
     border: 0;
     width: 20%;
@@ -192,6 +193,19 @@ table {
 .partners {
     background: rgb(245,245,245);
     width: 100%;
+
+}
+.block {
+    margin: 40px;
+}
+.partners .p-content{
+    margin: 40px;
+}
+.partners .p-content hr {
+    background: linear-gradient(to right top, #000001, #351b0b, #20000d, #351b0b, #634203);
+    height: 5px;
+    border: 0;
+    width: 10%;
 }
 .p-images{
     display: flex;
@@ -275,7 +289,7 @@ hr {
 }
 .f-icons a{
     color: #fff;
-    gap
+
 }
 .f-icons {
     padding: 70px;
@@ -550,14 +564,31 @@ form input .textarea {
 } */
 /* faetures section */
 /* similar listing */
+.similar {
+    /* height: 300px; */
+    padding: 40px;
+    margin-left: 50px;
+    /* padding-right: 50px; */
+    background: rgb(211,211,211);
+}
+.hrline {
+    height: 2px solid;
+    background-image: linear-gradient(to right top, #000001, #351b0b, #20000d, #351b0b, #634203);
+}
 .house {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 .house .malto-house img {
     width: 70%;
     height: 70%;
+    margin-bottom: 5px;
+    border-bottom-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+    border-top-left-radius: .5rem;
+    border-bottom-right-radius: .5rem;
 }
 
 /* similar listing */
